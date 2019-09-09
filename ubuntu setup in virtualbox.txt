@@ -1,0 +1,5 @@
+To setup Ubuntu 19.04:
+
+1.1 You have to download virtualbox from internet, and then configured BIOS (have to enable virtualization) Otherwise Virutual Box will not appear 64 Bit.
+
+1.2 Then create a virtual disk for ubuntu (have to download ubuntu before setup)
