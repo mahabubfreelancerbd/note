@@ -3,3 +3,95 @@ To setup Ubuntu 19.04:
 1.1 You have to download virtualbox from internet, and then configured BIOS (have to enable virtualization) Otherwise Virutual Box will not appear 64 Bit.
 
 1.2 Then create a virtual disk for ubuntu (have to download ubuntu before setup)
+
+Download and install Ubuntu 19.04 “Disco Dingo” on VirtualBox
+First of all, we need to visit the Ubuntu releases page.
+Here is the link (http://releases.ubuntu.com/19.04/) to download the Ubuntu 19.04 ISO images for desktop and server.
+Once you on the Ubuntu distribution download page you will find two Ubuntu 19.04 ISO images to download one is  Desktop image and other Server install image. Select the one which you want to try.
+If you have a computer running on AMD64 or EM64T architecture (e.g., Athlon64, Opteron, EM64T Xeon, Core 2).  Then Simply select the Image “64-bit PC (AMD64) desktop image or server install image“.
+As you select the image it will pop-up and start and downloading on your system. However, other options such as torrent download also available on the same page.
+Installation of the Ubuntu 19.04 ISO image on VirtualBox.
+
+Step 1: Open VirtualBox
+If you don’t have the VirtualBox installed on your system then go to the website Virtualbox.org and download it.
+
+Run the Virtual box and click on the NEW button given on the menu.
+
+Create Virtual Machine window will pop-up, where we have to enter the name of the operating system then select the type of OS: Linux and Version: Ubuntu (64-bit).
+
+Now click on the NEXT button to move forward.
+
+Install Ubuntu 19.04 on Virtual box
+
+Step 2: Assign RAM to Ubuntu 19.04 Virtual machine
+At this step, we will assign Virtual memory or RAM to our Ubuntu 19.04 operating system. We are assigning 4GB for optimal operations and to execute all the tasks smoothly on the OS. You can assign less or more as per the availability on your physical operating system. Once you assigned the memory, click on NEXT button.
+
+Set Virtual memory for Ubuntu 19.04
+
+Step 3: Create Virtual Hard disk
+To install Ubuntu 19.04 on VirtualBox, we need some storage space for that, add a virtual hard disk.
+
+Select “Create a Virtual Hard disk Now” option and click on the Next button.
+
+Create virtual hard disk to install Ubuntu 19.04
+
+Choose any of the hard disk file types, if you don’t have any idea about this, leave this option as default and simply click Next button to move further.
+
+hard disk file type
+
+Select the “Dynamically allocated” hard disk which will only use the space on the physical drive by the virtual hard drive as it grows up.
+
+Dynamically select
+
+Assign the amount of storage you would like to give your Ubuntu 19.04 operating system. The recommended one is 10GB at least for proper functions. However, we are assigning 30 GB because we have to test and install some software on Ubuntu.
+
+Click on Create button.
+
+assign the amount ot storage to ubuntu 19
+
+Step 4: Add Ubuntu 19.04 ISO file to VirtualBox
+After following all above-given steps we have successfully created an Ubuntu 19 Virtual machine. Now the next step is to assign the ISO file of Ubuntu 19.04 beta version downloaded at the beginning of this article. For this:
+
+Select the Ubuntu 19 created VM from the left panel of the VirtualBox.
+Click on the Settings button given on the Menu.
+Under settings select the Storage option.
+Click on Empty CD icon available under Storage Devices section (on right side panel).
+Ubuntu 19.04 ISO install
+
+Now from the Attributes section click on the CD icon and select “Choose Virtual Optical Disk File“.
+
+Choose the Virtual ISO file Ubuntu 19.04
+
+This will open the file explorer from where select the downloaded Ubuntu 19.04 ISO file. And finally, click on the OK button to close the VirtualBox Settings.
+
+
+ 
+Step 4: Install Ubuntu 19.04
+To begin the installation of the OS, just again select the freshly created Ubuntu VM from the left side of the VirtualBox panel and click on the Start arrow icon given on the Menu of Vbox.
+
+This will start the guided process of the Ubuntu 19 installation, follow the step by step installation wizard.
+
+Install ubutnu 19 step by step
+
+Once it installed, right click on the CD icon given in the bottom menu of the VirtualBox and click on the Ubuntu 19.04 attached ISO file.
+
+eject disk
+
+This will pop-up a force unmount notification on the screen, click the force unmount button.
+
+force mount
+
+Now go to the top menu->Machine and Select Reset (Host+R). This will restart the virtual machine and you will your newly installed Ubuntu.
+
+restart machine
+
+Step 5: Login
+Press the space bar.
+
+Ubuntu 19.04 virtulbox
+
+Enter the password which you have created while installing the Ubuntu 19 and click on Unlock.
+
+login ubutnu 19.04
+
+Here is the newly launched Ubuntu 19 with new icon style and features. Start exploring it.
